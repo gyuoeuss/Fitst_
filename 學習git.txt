@@ -24,3 +24,5 @@ git pull 以更新最新的程式
 
 建立新分支 git checkout -b 分支名稱
 如果有新分支 改用 git push origin 分支名稱
+
+正常了嗎
