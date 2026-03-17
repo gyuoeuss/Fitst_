@@ -1,4 +1,4 @@
-初始化
+z初始化
 git init
 git config --global user.name "gyuoeuss"
 git config --global user.email "s9588205@gmail.com"
@@ -25,4 +25,4 @@ git pull 以更新最新的程式
 建立新分支 git checkout -b 分支名稱
 如果有新分支 改用 git push origin 分支名稱
 
-正常了嗎
+git pull origin main --rebase今天遇到的問題，線上線下不同步，導致不能上傳
