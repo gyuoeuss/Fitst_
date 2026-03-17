@@ -1,0 +1,26 @@
+初始化
+git init
+git config --global user.name "gyuoeuss"
+git config --global user.email "s9588205@gmail.com"
+
+上傳檔案到git
+git add 檔案名稱
+git commit -m "說明文字"
+git log ； git log --oneline
+git diff 原先的檔案id 新檔案名稱
+/比較嚴重/ git reser --hard 原先檔案id
+
+上傳到github
+git remote add origin https://github.com/gyuoeuss/Fitst_<---不是空白有一個底線
+git branch -M main
+git push origin main
+建立連結之後，則使用 git push
+
+
+合作時的github
+git clone 目標網址
+要編輯要進入目標子資料夾 cd目標子資料夾
+git pull 以更新最新的程式
+
+建立新分支 git checkout -b 分支名稱
+如果有新分支 改用 git push origin 分支名稱
