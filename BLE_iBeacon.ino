@@ -25,7 +25,9 @@
 #define GPIO_DEEP_SLEEP_DURATION     10  // sleep x seconds and then wake up
 RTC_DATA_ATTR static time_t last;        // remember last boot in RTC Memory
 RTC_DATA_ATTR static uint32_t bootcount; // remember number of boots in RTC Memory
-
+/*
+新增有的沒的
+*/
 #ifdef __cplusplus
 extern "C" {
 #endif
