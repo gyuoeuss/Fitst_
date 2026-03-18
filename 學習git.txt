@@ -1,4 +1,4 @@
-z初始化
+初始化
 git init
 git config --global user.name "gyuoeuss"
 git config --global user.email "s9588205@gmail.com"
